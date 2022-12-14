@@ -1,0 +1,50 @@
+/* 
+Theme Name: The Padma Bridge
+Author: Sha Neowaj
+Author URI: https://www.facebook.com/neowaj1290
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready.
+Version: 1
+Text Domain: thepadma
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    z-index: 1;
+}
+.menu_one{
+    margin-top: 290px;
+}
+.menu_one li a{
+    text-decoration: none;
+    padding: 15px 10px;
+    color: rgb(56, 52, 52);
+    display: inline-block;
+}
+.menu_one li a:hover{
+    background-color: rgb(11, 208, 11);
+    color: white;
+}
+
+.hero_title{
+    width: 80%;
+    padding-left: 200px;
+
+}
+
+.three_card{
+    text-align: center;
+}
+.card_img img{
+    position: relative;
+    bottom: 30px;
+}
+
+.green_line{
+    width: 90%;
+    border: 1px solid rgb(13, 207, 13);
+    height: .5px;
+}
